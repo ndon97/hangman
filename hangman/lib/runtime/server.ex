@@ -16,7 +16,6 @@ defmodule Hangman.Runtime.Server do
     GenServer.start_link(__MODULE__, nil)
   end
 
-
   ### server process
 
   def init(_) do
